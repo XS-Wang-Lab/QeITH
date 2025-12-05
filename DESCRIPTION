@@ -1,0 +1,17 @@
+Package: QeITH
+Title: QeITH: Quantifies Tumor Ecosystem Heterogeneity to Predict Cancer Progression and Treatment Benefit
+Version: 1.1.0
+Authors@R: c(person(given = "Qiqi", family = "Lu", role = c("aut", "cre"), email = "qiqi_lu@stu.cpu.edu.cn"),
+              person(given = "Xiaosheng", family = "Wang", role = c("aut"), email = "xiaosheng.wang@cpu.edu.cn"))
+Maintainer: Qiqi Lu <qiqi.lu@stu.cpu.edu.cn>
+Description: Quantifying Tumor Heterogeneity in cancer ecosystems based on entropy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    magrittr,
+    tidyr
+Remotes: 
+    bioc::GSVA
