@@ -2,6 +2,7 @@
 
 QeITH (Quantifying Ecosystem Intratumor Heterogeneity), a universally applicable computational framework designed to quantify the ecosystem heterogeneity index across single-cell, bulk, and spatial resolutions. 
 
+<img width="5322" height="4948" alt="QeITH" src="https://github.com/user-attachments/assets/236705b4-2552-45e0-a04b-71612c9f0dc5" />
 
 &nbsp;
 
@@ -71,7 +72,7 @@ devtools::install_github("XS-Wang-Lab/QeITH")
 library(QeITH)
 ```
 
-&nbsp;&nbsp
+&nbsp;
 
 
 
@@ -97,7 +98,7 @@ load(example_file_path)
 # - spatial_example  : Spatial cell type proportions
 ```
 
-&nbsp;&nbsp
+&nbsp;
 
 
 
@@ -116,7 +117,7 @@ QeITH_bulk <- QeITH(bulk_example, type = "bulk")
 head(QeITH_bulk)
 ```
 
-
+&nbsp;
 
 **bulk_example**
 
@@ -132,7 +133,7 @@ bulk_example[1:5,1:5]
 | **CIDEA**  | 6.397503 | 5.246319 | 10.11182 | 6.116868 | 5.184098 |
 | **TENT2**  | 7.906217 | 8.267256 | 7.959291 | 9.206376 | 8.162845 |
 
-
+&nbsp;
 
 **QeITH_bulk**
 
@@ -199,7 +200,7 @@ QeITH_sc[1:5,]
 | **P04**    | 2.260293  |
 | **P05**    | 2.524838  |
 
-
+&nbsp;
 
 ## **Apply QeITH to a spatial transcriptome data**set
 
@@ -234,7 +235,7 @@ QeITH_ST <- QeITH(spatial_example, type = "spatial")
 head(QeITH_ST)
 ```
 
-
+&nbsp;
 
 **spatial_example**
 
