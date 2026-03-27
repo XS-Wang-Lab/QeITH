@@ -48,12 +48,11 @@ The **input dataset** format depends on the **data modality** specified by the `
 
   ## Interpreting QeITH Scores
 
-  - **Higher scores** indicate greater cellular diversity and more evenly distributed cell type proportions within a sample
-  - **Lower scores** suggest dominance by a few cell types or reduced heterogeneity
-  - Scores are **sample-specific** and can be compared across samples within the same data type
-  - **Note**: Scores from different data types (bulk vs single-cell) are not directly comparable due to different underlying calculations
+  - **Higher scores** indicate greater cellular diversity and more evenly distributed cell type proportions or functional states within a sample;
+  - **Lower scores** suggest dominance by a few cell types or functional states, indicating reduced heterogeneity;
+  - **Note**: Scores from different datasets should be interpreted with caution, as they may not be directly comparable due to differences in underlying calculations.
 
-
+&nbsp;
 
 # Installation
 
