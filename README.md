@@ -29,13 +29,13 @@ The **input dataset** format depends on the **data modality** specified by the `
   | `input`   | matrix/data.frame | The input dataset | Format depends on `type` (see below)                      |
   | `type`    | character         | Analysis mode     | Must be one of: `"bulk"`, `"single-cell"`, or `"spatial"` |
 
-+ **Input** Format Requirements by `type`
+**Input** Format Requirements by `type`
 
-  | `type`          | Required Format            | Column/Row Requirements                                      | Example           |
+| `type`          | Required Format            | Column/Row Requirements                                      | Example           |
 | :-------------- | :------------------------- | :----------------------------------------------------------- | :---------------- |
-  | `"bulk"`        | Gene expression matrix     | **Rows**: Gene symbols **Columns**: Sample IDs               | `bulk_example`    |
+| `"bulk"`        | Gene expression matrix     | **Rows**: Gene symbols **Columns**: Sample IDs               | `bulk_example`    |
 | `"single-cell"` | Cell annotation data.frame | **Must contain two columns**: - `Samples`: Sample identifiers - `Celltype`: Cell type annotations | `sc_example`      |
-  | `"spatial"`     | Cell proportion matrix     | **Rows**: Samples/spots **Columns**: Cell types **Values**: Proportions (0-1), each row sums to 1 | `spatial_example` |
+| `"spatial"`     | Cell proportion matrix     | **Rows**: Samples/spots **Columns**: Cell types **Values**: Proportions (0-1), each row sums to 1 | `spatial_example` |
 
 + **Output**
 
@@ -43,7 +43,7 @@ The **input dataset** format depends on the **data modality** specified by the `
 
   - `Sample`: Sample identifier
   - `ITH_Score`: Calculated intratumor heterogeneity score
-  - 
+
 
   ## Interpreting QeITH Scores
 
