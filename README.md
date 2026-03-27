@@ -2,7 +2,8 @@
 
 QeITH (Quantifying Ecosystem Intratumor Heterogeneity), a universally applicable computational framework designed to quantify the ecosystem heterogeneity index across single-cell, bulk, and spatial resolutions. 
 
-![Overview of QeITH](QeITH.jpg)
+[Uploading QeITH.tiff…]()
+
 &nbsp;
 
 # Description
